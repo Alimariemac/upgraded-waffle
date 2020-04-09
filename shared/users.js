@@ -1,0 +1,32 @@
+export const USERS=[
+    {
+        id:0,
+        firstName:"Jesse",
+        lastName:"Abrams",
+        type:"helper"
+    },
+    {
+        id:1,
+        firstName:"Jay",
+        lastName:"Ash",
+        type:"helper"
+    },
+    {
+        id:2,
+        firstName:"Ashley",
+        lastName:"Johnson",
+        type:"seeker"
+    },
+    {
+        id:3,
+        firstName:"Latitia",
+        lastName:"James",
+        type:"seeker"
+    },
+    {
+        id:4,
+        firstName:"Kerry",
+        lastName:"Hu",
+        type:"seeker"
+    }
+]
