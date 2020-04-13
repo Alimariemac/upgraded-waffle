@@ -98,16 +98,16 @@ h2{
   .footer-text {
     color: white; }
   
-    .form-control::placeholder{
+  .form-control::placeholder{
     color:$light-grey;
     }
 
-    .form-control:focus{
+  .form-control:focus{
         border-color:$linen;
         box-shadow: inset 0 1px 1px $linen, 0 0 4px $linen;
     }
 
-    .front-card{
+  .front-card{
       width: 70%;
     }
   .full-height {
@@ -162,7 +162,7 @@ h2{
     margin-right: .5rem; }
   
   .main-img {
-    background: url(/img/main-image.jpg) no-repeat center;
+    background: url(/assets/images/main-image.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
     height: 47rem; }
@@ -220,7 +220,7 @@ h2{
     overflow-x: scroll;}
   
   .side-img {
-    background: url(/img/side-img.jpg) no-repeat center;
+    background: url(/assets/images/side-img.jpg) no-repeat center;
     background-size: cover;
     width: 50%;
     height: 500px; }

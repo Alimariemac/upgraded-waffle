@@ -23,7 +23,7 @@ render(){
             <LocalForm onSubmit={values=>this.handleSubmit(values)}>
                             <Row className="form-group">
                                 <Col>
-                                <Label htmlFor="from">From:</Label>
+                                <Label htmlFor="from" className="small-text">From:</Label>
                                 <Control.text 
                                     model=".from" 
                                     className="form-control" 
@@ -33,7 +33,7 @@ render(){
                                         />
                                 </Col>
                                 <Col>
-                                <Label htmlFor="to">From:</Label>
+                                <Label htmlFor="to" className="small-text">From:</Label>
                                 <Control.text 
                                     model=".to" 
                                     className="form-control" 
@@ -45,7 +45,7 @@ render(){
                             </Row>
                             <Row>
                             <Col>
-                                <Label htmlFor="date">Appointment Date:</Label>
+                                <Label htmlFor="date" className="small-text">Appointment Date:</Label>
                                 <DatePicker
                                     selected={this.state.startDate} 
                                     onChange={this.handleChange}
@@ -56,7 +56,7 @@ render(){
                                         />
                                 </Col>
                                 <Col>
-                                <Label htmlFor="time">Appointment Time:</Label>
+                                <Label htmlFor="time" className="small-text">Appointment Time:</Label>
                                 <DatePicker
                                     selected={this.state.startDate} 
                                     onChange={this.handleChange}
@@ -73,8 +73,8 @@ render(){
                                 </Col>
                             </Row>
                             <Row>
-                                <Col>
-                                    <Label htmlFor="people">Number of People:</Label>
+                                <Col className="col-md-6">
+                                    <Label htmlFor="people" className="small-text">Number of People:</Label>
                                     <Control.text
                                     type="number"
                                     model=".people" 
