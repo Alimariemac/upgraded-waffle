@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
 import Home from './HomeComponent'
+<<<<<<< HEAD
 import Messages from './MessagesComponent'
+=======
+>>>>>>> 68d11b15bf2e3b6fe64f7678a88ebf5cc0b4c9af
 import Header from './HeaderComponent'
 import Footer from './FooterComponent'
 import {TESTIMONIALS} from "../shared/testimonials"
@@ -29,7 +32,10 @@ class Main extends Component{
                <Header/>
                 <Switch>
                     <Route exact path = '/home' render={()=> <Home testimonials={this.props.testimonials}/>} />
+<<<<<<< HEAD
                     <Route path ='/messages' component={Messages}/>
+=======
+>>>>>>> 68d11b15bf2e3b6fe64f7678a88ebf5cc0b4c9af
                     <Redirect to='/home' />
                 </Switch>
                <Footer/>
